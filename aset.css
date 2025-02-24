@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1d1d1d;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #1d1d1d;
+    margin-top: 20px;
+}
+
+.specs, .advantages {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.specs ul, .advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.specs li, .advantages li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background: #1d1d1d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #444;
+}
